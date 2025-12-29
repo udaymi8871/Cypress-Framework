@@ -1,0 +1,38 @@
+{
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "postalCode": "54321"
+  },
+  "problemUser": {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "postalCode": "67890"
+  },
+  "performanceUser": {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "firstName": "Alice",
+    "lastName": "Williams",
+    "postalCode": "11111"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "invalid_password",
+    "firstName": "Invalid",
+    "lastName": "User",
+    "postalCode": "00000"
+  }
+}
+

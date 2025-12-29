@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./cypress/*"],
+      "@pages/*": ["./cypress/pages/*"],
+      "@fixtures/*": ["./cypress/fixtures/*"],
+      "@support/*": ["./cypress/support/*"]
+    },
+    "types": ["cypress", "node"],
+    "lib": ["es6", "dom"],
+    "jsx": "preserve",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "cypress/**/*.js",
+    "cypress/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "cypress/videos",
+    "cypress/screenshots",
+    "allure-results",
+    "allure-report"
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "validCheckout": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "invalidCheckout": {
+    "firstName": "",
+    "lastName": "",
+    "postalCode": ""
+  },
+  "checkoutMessages": {
+    "success": "Thank you for your order!",
+    "error": "Error:",
+    "firstNameRequired": "First Name is required",
+    "lastNameRequired": "Last Name is required",
+    "postalCodeRequired": "Postal Code is required"
+  }
+}
+
