@@ -2,7 +2,7 @@
 
 A production-grade, comprehensive Cypress automation framework for e-commerce web applications. This framework is designed for hands-on QA upskilling, interview readiness, and real-world industry standards.
 
-## 🎯 Framework Overview
+##  Framework Overview
 
 This framework implements industry best practices including:
 - **Page Object Model (POM)** - Maintainable and reusable page objects
@@ -16,7 +16,7 @@ This framework implements industry best practices including:
 - **Test Tagging** - Smoke and regression test categorization
 - **Reporting** - HTML and Allure report generation
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Cypress-Framework/
@@ -52,7 +52,7 @@ Cypress-Framework/
 └── README.md                   # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ Cypress-Framework/
    npx cypress verify
    ```
 
-## 🏃 Running Tests
+##  Running Tests
 
 ### Open Cypress Test Runner (Interactive Mode)
 
@@ -132,7 +132,7 @@ npx cypress run --config baseUrl=https://example.com
 npx cypress run --config viewportWidth=1280,viewportHeight=720
 ```
 
-## 📊 Test Coverage
+##  Test Coverage
 
 ### Core E-Commerce Flows
 
@@ -281,7 +281,7 @@ npm run allure:open
 npm run allure:serve
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -380,7 +380,7 @@ Screenshots are automatically captured on failure in `cypress/screenshots/`
 
 Videos are automatically recorded in `cypress/videos/`
 
-## 📝 Extending the Framework
+##  Extending the Framework
 
 ### Adding New Page Objects
 
@@ -408,7 +408,7 @@ Videos are automatically recorded in `cypress/videos/`
 3. Write test cases following existing patterns
 4. Add appropriate tags
 
-## 🎯 Interview Preparation
+##  Interview Preparation
 
 This framework demonstrates:
 
@@ -436,7 +436,7 @@ This framework demonstrates:
    - Reporting tools
    - CI/CD integration
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -460,14 +460,14 @@ This framework demonstrates:
    - Check report configuration
    - Verify output directory
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [Cypress Documentation](https://docs.cypress.io/)
 - [Cypress Best Practices](https://docs.cypress.io/guides/references/best-practices)
 - [Page Object Model Pattern](https://docs.cypress.io/guides/references/best-practices#Organizing-Tests-Logging-In-Controlling-State)
 - [Cypress API Reference](https://docs.cypress.io/api/api/table-of-contents)
 
-## 🤝 Contributing
+##  Contributing
 
 This framework is designed for learning and practice. Feel free to:
 - Add new test scenarios
@@ -476,11 +476,11 @@ This framework is designed for learning and practice. Feel free to:
 - Add new utilities
 - Improve documentation
 
-## 📄 License
+##  License
 
 MIT License - Feel free to use this framework for learning and interviews.
 
-## 🎉 Getting Started Checklist
+##  Getting Started Checklist
 
 - [ ] Install Node.js and npm
 - [ ] Clone/navigate to project directory
@@ -495,7 +495,7 @@ MIT License - Feel free to use this framework for learning and interviews.
 - [ ] Generate reports
 - [ ] Start customizing for your needs
 
-## 💡 Tips for Success
+##  Tips for Success
 
 1. **Practice Regularly**: Run tests frequently to understand framework behavior
 2. **Read the Code**: Study page objects and custom commands
@@ -507,7 +507,7 @@ MIT License - Feel free to use this framework for learning and interviews.
 
 ---
 
-**Happy Testing! 🚀**
+**Happy Testing! **
 
 For questions or issues, refer to Cypress documentation or framework code comments.
 

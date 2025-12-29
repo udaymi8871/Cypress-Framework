@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-## 🚀 Get Up and Running in 5 Minutes
+##  Get Up and Running in 5 Minutes
 
 ### Step 1: Install Dependencies
 ```bash
@@ -22,7 +22,7 @@ npm run cy:open
 npm run cy:run
 ```
 
-## 📋 Common Commands
+##  Common Commands
 
 | Command | Description |
 |---------|-------------|
@@ -34,7 +34,7 @@ npm run cy:run
 | `npm run allure:generate` | Generate Allure report |
 | `npm run allure:open` | Open Allure report |
 
-## 🎯 Test Structure
+##  Test Structure
 
 ```
 cypress/e2e/
@@ -47,7 +47,7 @@ cypress/e2e/
 └── negative/          # Negative tests
 ```
 
-## 📝 Writing Your First Test
+##  Writing Your First Test
 
 ```javascript
 import LoginPage from '../../pages/LoginPage';
@@ -63,14 +63,14 @@ describe('My First Test', () => {
 });
 ```
 
-## 🔍 Key Concepts
+##  Key Concepts
 
 1. **Page Objects**: Located in `cypress/pages/`
 2. **Fixtures**: Test data in `cypress/fixtures/`
 3. **Custom Commands**: Reusable commands in `cypress/support/commands.js`
 4. **Test Tags**: Use `@smoke` or `@regression` tags
 
-## 📊 Viewing Reports
+##  Viewing Reports
 
 ### HTML Reports
 ```bash
@@ -85,7 +85,7 @@ npm run allure:generate
 npm run allure:open
 ```
 
-## 🎓 Next Steps
+##  Next Steps
 
 1. Read the full [README.md](./README.md)
 2. Explore test files in `cypress/e2e/`
@@ -93,11 +93,11 @@ npm run allure:open
 4. Modify existing tests
 5. Create your own tests
 
-## ❓ Need Help?
+##  Need Help?
 
 - Check [README.md](./README.md) for detailed documentation
 - Review Cypress docs: https://docs.cypress.io
 - Examine existing test files for examples
 
-Happy Testing! 🎉
+Happy Testing! 
 

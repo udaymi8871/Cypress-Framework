@@ -1,10 +1,10 @@
 # Framework Architecture Guide
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This framework follows industry-standard patterns for maintainable, scalable test automation.
 
-## 📐 Design Patterns
+## Design Patterns
 
 ### 1. Page Object Model (POM)
 
@@ -94,7 +94,7 @@ import { functionName } from '../support/utils';
 - Common operations centralized
 - Easy to test and maintain
 
-## 🗂️ File Organization
+##File Organization
 
 ### Test Files Structure
 
@@ -119,7 +119,7 @@ cypress/pages/
 - PascalCase with "Page" suffix
 - Match page/feature name (e.g., `LoginPage.js`, `CartPage.js`)
 
-## 🏷️ Test Tagging Strategy
+##Test Tagging Strategy
 
 ### Tags Used
 
@@ -144,7 +144,7 @@ npm run cy:run:smoke
 npm run cy:run:regression
 ```
 
-## 🔄 Test Lifecycle
+## Test Lifecycle
 
 ### Hooks
 
@@ -160,7 +160,7 @@ Located in `cypress/support/e2e.js`:
 - Uncaught exception handling
 - Test logging
 
-## 📊 Reporting Strategy
+##Reporting Strategy
 
 ### Mochawesome Reports
 
@@ -174,7 +174,7 @@ Located in `cypress/support/e2e.js`:
 - **Location**: `allure-report/`
 - **Usage**: `npm run allure:generate && npm run allure:open`
 
-## 🔧 Configuration Management
+##Configuration Management
 
 ### Environment Configuration
 
@@ -198,7 +198,7 @@ Cypress.env('variableName');
 - Retries
 - Video/Screenshot settings
 
-## 🧪 Test Data Management
+##Test Data Management
 
 ### Fixture Files
 
@@ -214,7 +214,7 @@ Cypress.env('variableName');
 - Support multiple scenarios
 - Version control all fixtures
 
-## 🚀 Extending the Framework
+##Extending the Framework
 
 ### Adding a New Page Object
 
@@ -244,7 +244,7 @@ Cypress.env('variableName');
 4. Write tests following patterns
 5. Add appropriate tags
 
-## 🎯 Best Practices
+## Best Practices
 
 ### 1. Selectors
 
@@ -324,7 +324,7 @@ Automatically recorded for all runs
 
 Use `experimentalStudio: true` in config
 
-## 📈 Performance Considerations
+## Performance Considerations
 
 ### 1. Test Execution Time
 
@@ -344,7 +344,7 @@ Use `experimentalStudio: true` in config
 - Avoid test dependencies
 - Use tags for test selection
 
-## 🎓 Learning Path
+## Learning Path
 
 ### Beginner
 
@@ -367,7 +367,7 @@ Use `experimentalStudio: true` in config
 3. Framework customization
 4. Performance optimization
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Cypress Best Practices](https://docs.cypress.io/guides/references/best-practices)
 - [Page Object Model](https://martinfowler.com/bliki/PageObject.html)

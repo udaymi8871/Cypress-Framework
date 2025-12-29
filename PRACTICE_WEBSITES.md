@@ -1,10 +1,10 @@
 # Websites for Automation Testing Practice
 
-## 🎯 Currently Configured in Your Framework
+## Currently Configured in Your Framework
 
-### ✅ Sauce Demo (Already Set Up!)
+### Sauce Demo (Already Set Up!)
 - **URL**: https://www.saucedemo.com
-- **Status**: ✅ Already configured in `cypress.config.js`
+- **Status**: Already configured in `cypress.config.js`
 - **Features**: 
   - E-commerce functionality
   - Login/logout
@@ -16,7 +16,7 @@
 
 ---
 
-## 🌐 Best Practice Websites for Automation
+## Best Practice Websites for Automation
 
 ### 1. **The Internet (Herokuapp)**
 - **URL**: https://the-internet.herokuapp.com
@@ -75,7 +75,7 @@
 - **Why it's great**: Enterprise application, complex workflows
 
 ### 6. **Swag Labs (Sauce Demo)**
-- **URL**: https://www.saucedemo.com ✅ (Already configured!)
+- **URL**: https://www.saucedemo.com  (Already configured!)
 - **Why it's great**: E-commerce, perfect for your current framework
 
 ### 7. **Automation Exercise**
@@ -118,7 +118,7 @@
 ## 🎓 Interview-Focused Websites
 
 ### **Sauce Demo** (Most Common in Interviews)
-- ✅ Already in your framework!
+- Already in your framework!
 - Used by many companies for technical assessments
 - Perfect for demonstrating POM, custom commands, etc.
 
@@ -128,7 +128,7 @@
 
 ---
 
-## 🚀 How to Switch to Different Websites
+## How to Switch to Different Websites
 
 ### Option 1: Update baseUrl in cypress.config.js
 
@@ -150,7 +150,7 @@ cy.visit('https://the-internet.herokuapp.com/login');
 
 ---
 
-## 📝 Recommended Practice Order
+## Recommended Practice Order
 
 1. **Start with Sauce Demo** (Already configured)
    - Master the basics
@@ -171,7 +171,7 @@ cy.visit('https://the-internet.herokuapp.com/login');
 
 ---
 
-## 💡 Tips for Practice
+## Tips for Practice
 
 1. **Start Simple**: Begin with Sauce Demo (already set up)
 2. **Practice POM**: Create page objects for each new site
@@ -182,7 +182,7 @@ cy.visit('https://the-internet.herokuapp.com/login');
 
 ---
 
-## 🔧 Quick Setup for New Website
+## Quick Setup for New Website
 
 1. Update `baseUrl` in `cypress.config.js`
 2. Create new page objects in `cypress/pages/`
@@ -192,12 +192,12 @@ cy.visit('https://the-internet.herokuapp.com/login');
 
 ---
 
-## ✅ Your Current Setup
+## Your Current Setup
 
 **Website**: Sauce Demo (https://www.saucedemo.com)
-**Status**: ✅ Fully configured and ready
-**Tests**: ✅ 11 test suites already written
-**Framework**: ✅ Production-ready
+**Status**:  Fully configured and ready
+**Tests**: 11 test suites already written
+**Framework**: Production-ready
 
 **You can start practicing immediately!**
 
